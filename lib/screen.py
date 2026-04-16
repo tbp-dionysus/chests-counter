@@ -1,5 +1,4 @@
-from os import name
-from typing import List, Optional
+from typing import Optional
 
 import screen_ocr
 import pyautogui
@@ -31,11 +30,10 @@ class Player:
     def __init__(self, player_name):
         self.player_name = player_name
 
-
 def read_chest_screen() -> Chest:
     ocr_reader = screen_ocr.Reader.create_quality_reader()
     
-    results = ocr_reader.read_screen(bounding_box=(790, 411, 1149, 490))
+    results = ocr_reader.read_screen(bounding_box=(792, 436, 1133, 488))
     
     chest = parse_chest_text(results.as_string())
     
@@ -65,19 +63,28 @@ def read_player_screen() -> Chest:
         return player
     return None
 
-
 def parse_chest_text(text) -> Optional[Chest]:
+    
     lines = text.splitlines()
-    chest_found = False
-
-    for line in lines:
-        if "from" in line.lower():
-            player_name = line.replace("From:", "").strip()
-            chest_found = True
-        if "source" in line.lower():
-            source = line.replace("Source:", "").strip()
-
-    if not chest_found:
+    print(lines)
+    if len(lines) == 3:
+        player_name = lines[0].replace("From:", "").strip()
+        if not player_name:
+            player_name = lines[1].replace("From:", "").strip()
+            source = lines[2].replace("Source:", "").strip()
+        else:
+            source = lines[1].replace("Source:", "").strip()
+        if source == "From:":
+            source = lines[2].replace("Source:", "").strip()
+    if len(lines) == 2:
+        player_name = lines[0].replace("From:", "").strip()
+        source = lines[1].replace("Source:", "").strip()
+    
+    if source == "From:":
+        return None
+    
+    if not player_name or not source:
+        print("Could not parse chest data from text: " + text)
         return None
     return Chest(player_name, source)
 
