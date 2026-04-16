@@ -51,7 +51,7 @@ def export():
         conn = create_connection()
         cur = conn.cursor()
         cur.execute(
-            "SELECT p.player_name, cl.chest_type, IFNULL(count(*), 0) as chest_count " 
+            "SELECT p.player_name, cl.chest_type, count(cl.chest_type) as chest_count " 
             "FROM players p "
             "LEFT JOIN chests_log cl on p.player_name = cl.player_name "
             "GROUP BY p.player_name, cl.chest_type "
