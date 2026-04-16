@@ -1,0 +1,4 @@
+chestcounter/Lib/site-packages/*
+chestcounter/Scripts/*
+chests-counter.code*
+pyvenv.cfg
