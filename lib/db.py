@@ -174,3 +174,39 @@ def export():
             f.write(output)
     except Error as e:
         print(e)
+
+
+def export_html():
+    try:
+        output = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"stylesheet\" href=\"style.css\">\n<title>TBP Chests</title>\n</head>\n<body>\n"
+        output += "<h1>TBP chests 16/04/2025 - 20/04/2025</h1>\n"
+        output += "<p><strong>NOTE:</strong><br>This data is collected manually by opening chests one by one, so it may not be 100% accurate.</p>\n"
+        output += "<p><strong>WARNING:</strong><br>If you are missing from this list, please contact Dionysus.</p>\n\n"
+        output += "<p><em>Last refreshed: " + str(datetime.now().strftime("%Y-%m-%d %H:%M:%S")) + "</em></p>\n\n"
+
+        players = get_all_players()
+        chest_types = get_all_chest_types()
+        
+        all_chest_types = ""
+        for chest in chest_types:
+            all_chest_types += f"<th>{chest[0]} ({chest[1]})</th>"
+        
+        output += f"<table>\n<thead>\n<tr><th>Player</th>{all_chest_types}<th>Total Chests</th><th>Total Points</th></tr>\n</thead>\n<tbody>\n"
+
+        for player in players:
+            output += f"<tr><th>{player[1]}</th>"
+            total = 0
+            total_points = 0
+            for chest in chest_types:
+                count = get_player_chest_count(player[1], chest[0])
+                output += f"<td>{count}</td>"
+                total += count
+                total_points += count * chest[1]
+            output += f"<td>{total}</td><td>{total_points}</td></tr>\n"
+
+        output += "</tbody>\n</table>"
+        output += "</body>\n</html>"
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(output)
+    except Error as e:
+        print(e)
