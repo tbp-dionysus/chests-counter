@@ -1,3 +1,4 @@
+from datetime import datetime
 import sqlite3
 from sqlite3 import Error
 
@@ -57,17 +58,13 @@ def export():
         )
         rows = cur.fetchall()
 
-        output = "# TBP chests 16/04/2025 - 20/04/2025\n\n"
+        output = "# TBP chests 16/04/2025 - 20/04/2025 (Total: " + str(sum(row[2] for row in rows)) + ", Last refreshed: " + str(datetime.now()) + ")\n\n"
         output += "| Player  | Chest Type | Count |\n"
         output += "| --- | --- | --- |\n"
         for row in rows:
             output += f"| {row[0]} | {row[1]} | {row[2]} |\n"
         
-        # Add total row
-        cur.execute("SELECT 'Total', ' ', count(1) from chests_log")
-        rows = cur.fetchall()
-        for row in rows:
-            output += f"| {row[0]} | {row[1]} | {row[2]} |\n"
+        
 
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(output)

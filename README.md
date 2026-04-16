@@ -1,4 +1,4 @@
-# TBP chests 16/04/2025 - 20/04/2025
+# TBP chests 16/04/2025 - 20/04/2025 (Total: 334, Last refreshed: 2026-04-16 16:29:45.359553)
 
 | Player  | Chest Type | Count |
 | --- | --- | --- |
@@ -127,4 +127,3 @@
 | valnic | None | 1 |
 | volf | Level 25 Crypt | 7 |
 | volf | Level 25 rare Crypt | 1 |
-| Total |   | 269 |
