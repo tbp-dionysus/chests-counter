@@ -42,7 +42,7 @@ def export():
         for row in rows:
             output += f"| {row[0]} | {row[1]} | {row[2]} |\n"
         
-        with open("output.md", "w", encoding="utf-8") as f:
+        with open("README.md", "w", encoding="utf-8") as f:
             f.write(output)
     except Error as e:
         print(e)
