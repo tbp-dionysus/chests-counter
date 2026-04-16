@@ -50,10 +50,10 @@ def export():
         conn = create_connection()
         cur = conn.cursor()
         cur.execute(
-            "select p.player_name, cl.chest_type, IFNULL(count(*), 0) as chest_count " 
-            "from players p "
-            "left join chests_log cl on p.player_name = cl.player_name "
-            "GROUP BY p.player_name, cl.chest_type"
+            "SELECT p.player_name, cl.chest_type, IFNULL(count(*), 0) as chest_count " 
+            "FROM players p "
+            "LEFT JOIN chests_log cl on p.player_name = cl.player_name "
+            "GROUP BY p.player_name, cl.chest_type "
         )
         rows = cur.fetchall()
 
@@ -63,6 +63,12 @@ def export():
         for row in rows:
             output += f"| {row[0]} | {row[1]} | {row[2]} |\n"
         
+        # Add total row
+        cur.execute("SELECT 'Total', ' ', count(1) from chests_log")
+        rows = cur.fetchall()
+        for row in rows:
+            output += f"| {row[0]} | {row[1]} | {row[2]} |\n"
+
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(output)
     except Error as e:

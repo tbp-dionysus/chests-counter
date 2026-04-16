@@ -127,3 +127,4 @@
 | valnic | None | 1 |
 | volf | Level 25 Crypt | 7 |
 | volf | Level 25 rare Crypt | 1 |
+| Total |   | 269 |
