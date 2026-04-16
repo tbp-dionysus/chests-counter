@@ -5,7 +5,7 @@
 >[!WARNING]
 >If you are missing from this list, please contact Dionysus. 
 
-### Last refreshed: 2026-04-16 23:27:44
+### Last refreshed: 2026-04-16 23:29:55
 
 | Player | Shadow City (50) | Beastman (50) | Level 25 Citadel (40) | Level 20 Citadel (5) | Level 35 epic Crypt (150) | Level 30 epic Crypt (100) | Level 25 epic Crypt (60) | Level 20 epic Crypt (10) | Level 15 epic Crypt (0) | Level 30 rare Crypt (100) | Level 25 rare Crypt (50) | Level 20 rare Crypt (0) | Level 5 Crypt (0) | Level 25 Crypt (40) | Level 20 Crypt (15) | Level 15 Crypt (0) | Clash for the Throne tournament (5) | Carrot Monster (1) | Arena (1) | Clan wealth (0) | Bank (1) | Total Chests | Total Points |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

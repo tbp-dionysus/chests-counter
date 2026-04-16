@@ -202,7 +202,7 @@ def export_html():
                 output += f"<td>{count}</td>"
                 total += count
                 total_points += count * chest[1]
-            output += f"<td>{total}</td><td>{total_points}</td></tr>\n"
+            output += f"<th>{total}</th><th>{total_points}</th></tr>\n"
 
         output += "</tbody>\n</table>"
         output += "</body>\n</html>"
