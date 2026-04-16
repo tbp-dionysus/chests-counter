@@ -1,4 +1,6 @@
 chestcounter/Lib/site-packages/*
+chestcounter/lib/__pycache__/*
 chestcounter/Scripts/*
 chests-counter.code*
 pyvenv.cfg
+chestcounter/data/*

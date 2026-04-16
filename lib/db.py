@@ -29,11 +29,32 @@ def add_chest(player_name, chest_type):
     conn.commit()
     return
 
+def add_player(player_name):
+    """
+    Create a new player into the players table
+    :param conn:
+    :param player_name:
+    :return: None
+    """
+    conn = create_connection()
+    sql = """ INSERT INTO players(player_name)
+              VALUES(?) """
+    cur = conn.cursor()
+    cur.execute(sql, (player_name,))
+    conn.commit()
+    return
+
+
 def export():
     try:
         conn = create_connection()
         cur = conn.cursor()
-        cur.execute("SELECT player_name, chest_type, count(1) FROM chests_log GROUP BY player_name, chest_type ORDER BY player_name ASC")
+        cur.execute(
+            "select p.player_name, cl.chest_type, IFNULL(count(*), 0) as chest_count " 
+            "from players p "
+            "left join chests_log cl on p.player_name = cl.player_name "
+            "GROUP BY p.player_name, cl.chest_type"
+        )
         rows = cur.fetchall()
 
         output = "# TBP chests 16/04/2025 - 20/04/2025\n\n"
