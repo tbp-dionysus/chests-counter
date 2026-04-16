@@ -13,7 +13,7 @@
 | Bistou Quéte | None | 1 |
 | BlackSong | None | 1 |
 | CHEST TBP | None | 1 |
-| Comand | Level 25 Crypt | 8 |
+| Comand | Level 25 Crypt | 36 |
 | Daikazahn | None | 1 |
 | Dance with wolves | None | 1 |
 | Debra | None | 1 |
@@ -36,7 +36,7 @@
 | Firafeyl | None | 1 |
 | Firond CP | None | 1 |
 | GABIRABBEAN | None | 1 |
-| Garvel | None | 1 |
+| Garvel | Level 20 Crypt | 2 |
 | Goldberry | None | 1 |
 | Grace 0Mally | None | 1 |
 | Grinch | Clan wealth | 4 |
@@ -59,7 +59,7 @@
 | Lady Karwen | None | 1 |
 | Leito 89 | Level 20 Crypt | 14 |
 | Leito 89 | Level 25 Crypt | 9 |
-| Lepidus | None | 1 |
+| Lepidus | Level 25 Crypt | 2 |
 | Lia | None | 1 |
 | Lilith | None | 1 |
 | Litsar Ordenu DOBRA | None | 1 |
@@ -107,9 +107,12 @@
 | Torin | None | 1 |
 | Vit | None | 1 |
 | carlospoupa | None | 1 |
-| elTURKO | Level 20 Crypt | 2 |
+| elTURKO | Level 20 Crypt | 6 |
 | elTURKO | Level 20 epic Crypt | 1 |
-| elTURKO | Level 25 Crypt | 2 |
+| elTURKO | Level 20 rare Crypt | 3 |
+| elTURKO | Level 25 Crypt | 7 |
+| elTURKO | Level 25 epic Crypt | 3 |
+| elTURKO | Level 30 rare Crypt | 2 |
 | goldwtng | None | 1 |
 | james1991 | Level 25 Crypt | 2 |
 | oceano | None | 1 |
@@ -122,5 +125,5 @@
 | shaktilkis | None | 1 |
 | sparta | None | 1 |
 | valnic | None | 1 |
-| volf | Level 25 Crypt | 3 |
+| volf | Level 25 Crypt | 7 |
 | volf | Level 25 rare Crypt | 1 |
