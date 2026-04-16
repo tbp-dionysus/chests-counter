@@ -1,141 +1,107 @@
 # TBP chests 16/04/2025 - 20/04/2025 
-> [!NOTE]
-> This data is collected manually by opening chests one by one, so it may not be 100% accurate. 
+>[!NOTE]
+>This data is collected manually by opening chests one by one, so it may not be 100% accurate. 
 
-> [!WARNING]
-> If you are missing from this list, please contact Dionysus. 
+>[!WARNING]
+>If you are missing from this list, please contact Dionysus. 
 
-### Total: 360
-### Last refreshed: 2026-04-16 17:00:31
+### Last refreshed: 2026-04-16 21:44:41
 
-| Player  | Chest Type | Count |
-| --- | --- | --- |
-| AHY6nc Charon | None | 0 |
-| Achille le Hobbit | None | 0 |
-| Anubis | None | 0 |
-| Archange Gabriel | None | 0 |
-| Auri | Level 25 Crypt | 3 |
-| Bacchus | None | 0 |
-| Barry II | None | 0 |
-| Beriziky | None | 0 |
-| Bistou Quéte | None | 0 |
-| BlackSong | None | 0 |
-| CHEST TBP | None | 0 |
-| Comand | Level 25 Crypt | 39 |
-| Daikazahn | Level 20 Crypt | 4 |
-| Dance with wolves | None | 0 |
-| Debra | None | 0 |
-| Dionysus | None | 0 |
-| Dreamy | None | 0 |
-| ESME | Level 25 Crypt | 16 |
-| El Jay | None | 0 |
-| Elrinen | Arena | 1 |
-| Elrinen | Level 15 epic Crypt | 9 |
-| Elrinen | Level 20 epic Crypt | 7 |
-| Elrinen | Level 25 rare Crypt | 1 |
-| Elrinen | Level 30 rare Crypt | 1 |
-| Eryx | None | 0 |
-| Extrema Ratio | Level 25 Citadel | 1 |
-| Extrema Ratio | Level 25 rare Crypt | 2 |
-| Extrema Ratio | Level 30 Citadel | 1 |
-| Extrema Ratio | Level 30 epic Crypt | 1 |
-| Feli | None | 0 |
-| Ferox | None | 0 |
-| Firafeyl | None | 0 |
-| Firond CP | None | 0 |
-| GABIRABBEAN | None | 0 |
-| Garvel | Level 10 Crypt | 1 |
-| Garvel | Level 20 Crypt | 29 |
-| Garvel | Level 5 Crypt | 1 |
-| Goldberry | None | 0 |
-| Grace 0Mally | None | 0 |
-| Grinch | Clan wealth | 4 |
-| Grinch | Level 20 epic Crypt | 2 |
-| Grinch | Level 25 epic Crypt | 1 |
-| Grinch | Level 30 epic Crypt | 2 |
-| Grinch | Level 30 rare Crypt | 1 |
-| Gryphon | None | 0 |
-| Hamburger | Level 20 rare Crypt | 12 |
-| Hamburger | Level 25 rare Crypt | 2 |
-| Heavenly Demon | None | 0 |
-| Imotep | None | 0 |
-| Jack Bauer | Level 20 Citadel | 8 |
-| Jack Bauer | Level 20 rare Crypt | 7 |
-| Jack Bauer | Level 25 Citadel | 6 |
-| Jack Bauer | Level 25 rare Crypt | 6 |
-| Junior | None | 0 |
-| LAREVOLTEE2 | None | 0 |
-| Lady BlackLung | None | 0 |
-| Lady Karwen | None | 0 |
-| Leito 89 | Level 20 Crypt | 14 |
-| Leito 89 | Level 25 Crypt | 9 |
-| Lepidus | Level 10 Crypt | 2 |
-| Lepidus | Level 25 Crypt | 21 |
-| Lepidus | Level 5 Crypt | 1 |
-| Lia | None | 0 |
-| Lilith | None | 0 |
-| Litsar Ordenu DOBRA | None | 0 |
-| MAIAA | None | 0 |
-| MERIDA | None | 0 |
-| MUGIWARA YA | None | 0 |
-| Maradonagore | None | 0 |
-| Marvyyk | None | 0 |
-| Megore | None | 0 |
-| Mejas | Level 25 Crypt | 4 |
-| Mejinn | None | 0 |
-| Mikalkree | None | 0 |
-| Minty | None | 0 |
-| Mohelm | None | 0 |
-| NALERO | None | 0 |
-| NEMESIS | None | 0 |
-| Nila | None | 0 |
-| Nilanara | None | 0 |
-| Nono | None | 0 |
-| Nuadalsa | Level 15 rare Crypt | 1 |
-| Nuadalsa | Level 20 Crypt | 4 |
-| Nuadalsa | Level 20 rare Crypt | 7 |
-| Nuadalsa | Level 25 Crypt | 28 |
-| Nuadalsa | Level 25 epic Crypt | 14 |
-| Néfertiti | None | 0 |
-| OSIRIS | None | 0 |
-| Oilinan | None | 0 |
-| Pavel KZ | Level 20 epic Crypt | 1 |
-| PtitRage | None | 0 |
-| PumpkinSlayer | Level 20 Crypt | 3 |
-| PumpkinSlayer | Level 20 epic Crypt | 3 |
-| PumpkinSlayer | Level 25 Crypt | 1 |
-| PumpkinSlayer | Level 25 rare Crypt | 13 |
-| Ragounet | None | 0 |
-| Rail | None | 0 |
-| Refur | None | 0 |
-| Romul | None | 0 |
-| RubyGemstone | None | 0 |
-| Sage | Level 25 Crypt | 17 |
-| Sedtis | Level 25 rare Crypt | 1 |
-| Shathis | None | 0 |
-| SonGoku | None | 0 |
-| Sparta | Level 25 Crypt | 3 |
-| The Witcher | None | 0 |
-| The other BUMP | None | 0 |
-| Torin | None | 0 |
-| Vit | None | 0 |
-| carlospoupa | None | 0 |
-| elTURKO | Level 20 Crypt | 6 |
-| elTURKO | Level 20 epic Crypt | 1 |
-| elTURKO | Level 20 rare Crypt | 3 |
-| elTURKO | Level 25 Crypt | 7 |
-| elTURKO | Level 25 epic Crypt | 3 |
-| elTURKO | Level 30 rare Crypt | 2 |
-| goldwtng | None | 0 |
-| james1991 | Level 25 Crypt | 2 |
-| oceano | None | 0 |
-| otshelnik | None | 0 |
-| pancateto | None | 0 |
-| pipoputis | None | 0 |
-| pourriture | Level 25 Crypt | 4 |
-| pourriture | Level 25 epic Crypt | 3 |
-| pourriture | Level 30 epic Crypt | 5 |
-| shaktilkis | None | 0 |
-| valnic | Level 25 Crypt | 1 |
-| volf | Level 25 Crypt | 7 |
-| volf | Level 25 rare Crypt | 1 |
+| Player | Shadow City (50) | Beastman (50) | Level 25 Citadel (40) | Level 35 epic Crypt (150) | Level 30 epic Crypt (100) | Level 25 epic Crypt (60) | Level 20 epic Crypt (10) | Level 30 rare Crypt (100) | Level 25 rare Crypt (50) | Level 25 Crypt (40) | Level 20 Crypt (15) | Level 15 Crypt (0) | Clash for the Throne tournament (5) | Carrot Monster (1) | Arena (1) | Total Chests | Total Points |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| AHY6nc Charon | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 60 |
+| Achille le Hobbit | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Anubis | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Archange Gabriel | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Auri | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 120 |
+| Bacchus | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Barry II | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Beriziky | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Bistou Quéte | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BlackSong | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CHEST TBP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Comand | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 39 | 0 | 0 | 0 | 0 | 0 | 39 | 1560 |
+| Daikazahn | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 12 | 0 | 0 | 0 | 0 | 13 | 190 |
+| Dance with wolves | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Debra | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Dionysus | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Dreamy | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ESME | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 16 | 0 | 0 | 0 | 0 | 0 | 16 | 640 |
+| El Jay | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Elrinen | 0 | 0 | 0 | 0 | 0 | 0 | 7 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 10 | 221 |
+| Eryx | 0 | 0 | 0 | 0 | 13 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 14 | 1340 |
+| Extrema Ratio | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 5 | 245 |
+| Feli | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Ferox | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Firafeyl | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Firond CP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GABIRABBEAN | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 6 | 300 |
+| Garvel | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 31 | 1 | 0 | 2 | 0 | 34 | 467 |
+| Goldberry | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Grace 0Mally | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Grinch | 0 | 0 | 0 | 0 | 2 | 1 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 7 | 430 |
+| Gryphon | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 5 | 4 | 5 | 0 | 0 | 1 | 0 | 0 | 16 | 945 |
+| Gryphon | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 5 | 4 | 5 | 0 | 0 | 1 | 0 | 0 | 16 | 945 |
+| Hamburger | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 100 |
+| Heavenly Demon | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Imotep | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Jack Bauer | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 2 | 0 | 14 | 542 |
+| Junior | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LAREVOLTEE2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | 8 | 320 |
+| Lady BlackLung | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Lady Karwen | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Leito 89 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 | 14 | 0 | 0 | 0 | 0 | 24 | 620 |
+| Lepidus | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 24 | 0 | 0 | 0 | 1 | 0 | 25 | 961 |
+| Lia | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Lilith | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Litsar Ordenu DOBRA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MAIAA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 120 |
+| MERIDA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MUGIWARA YA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Maradonagore | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Marvyyk | 0 | 0 | 0 | 0 | 0 | 3 | 3 | 0 | 0 | 4 | 1 | 0 | 0 | 0 | 1 | 12 | 386 |
+| Megore | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 6 | 0 | 0 | 0 | 0 | 9 | 210 |
+| Mejas | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 160 |
+| Mejinn | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mikalkree | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 120 |
+| Minty | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mohelm | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| NALERO | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| NEMESIS | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nila | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nilanara | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nono | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Nuadalsa | 0 | 0 | 0 | 0 | 0 | 14 | 0 | 0 | 0 | 33 | 4 | 0 | 0 | 0 | 0 | 51 | 2220 |
+| Néfertiti | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| OSIRIS | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Ollinan | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 7 | 280 |
+| Pavel KZ | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 10 |
+| Pipoputis | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 5 |
+| PtitRage | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PumpkinSlayer | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 13 | 1 | 3 | 0 | 0 | 0 | 0 | 20 | 765 |
+| Ragounet | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Rail | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Refur | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Romul | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| RubyGemstone | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Sage | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 58 | 0 | 0 | 0 | 0 | 0 | 64 | 3220 |
+| Sedtis | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 50 |
+| Shathis | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SonGoku | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 17 | 850 |
+| Sparta | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 120 |
+| The Witcher | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 3 | 120 |
+| The other BUMP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Torin | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 1 |
+| Vit | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| carlospoupa | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| elTURKO | 0 | 0 | 0 | 0 | 0 | 3 | 1 | 2 | 0 | 8 | 7 | 0 | 0 | 0 | 0 | 21 | 815 |
+| goldwing | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 450 |
+| goldwtng | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| james1991 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 80 |
+| oceano | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| otshelnik | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| pancateto | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| pourriture | 0 | 0 | 0 | 0 | 5 | 3 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 12 | 840 |
+| shaktilkis | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| valnic | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 40 |
+| volf | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 7 | 0 | 0 | 0 | 0 | 0 | 8 | 330 |

@@ -4,10 +4,28 @@ from typing import List, Optional
 import screen_ocr
 import pyautogui
 
+from lib.db import add_chest_type, get_chest_type, get_player
+
+
 class Chest:
+
     def __init__(self, player_name, source):
         self.player_name = player_name
         self.source = source
+
+    def validate(self):
+        if not self.player_name or not self.source:
+            return False
+        player = get_player(self.player_name)
+        if not player:
+            print(f"Player '{self.player_name}' not found in database.")
+            return False
+
+        chest_type = get_chest_type(self.source)
+        if not chest_type:
+            add_chest_type(self.source)
+      
+        return True 
 
 class Player:
     def __init__(self, player_name):
@@ -17,15 +35,23 @@ class Player:
 def read_chest_screen() -> Chest:
     ocr_reader = screen_ocr.Reader.create_quality_reader()
     
-    results = ocr_reader.read_screen(bounding_box=(785, 406, 1411, 495))
+    results = ocr_reader.read_screen(bounding_box=(790, 411, 1149, 490))
     
     chest = parse_chest_text(results.as_string())
     
     if chest:
-        button_location = pyautogui.Point(x=1351, y=474)
-        pyautogui.moveTo(button_location)
-        pyautogui.click()
-        return chest
+        if chest.validate():
+            button_location = pyautogui.Point(x=1351, y=474)
+            pyautogui.moveTo(button_location)
+            pyautogui.click()
+            return chest
+        else:
+            print("Invalid chest data: ", results.as_string())
+            exit()
+    else:
+        print("No valid chest data found.")
+        print("OCR Result: ", results.as_string())
+        exit()
     return None
 
 def read_player_screen() -> Chest:
