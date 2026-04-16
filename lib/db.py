@@ -59,10 +59,10 @@ def export():
         rows = cur.fetchall()
 
         output = "# TBP chests 16/04/2025 - 20/04/2025 \n"
-        output += "> [!INFO]\n"
-        output += "> This data is collected manually by opening chests one by one, so it may not be 100% accurate. \n"
+        output += "> [!NOTE]\n"
+        output += "> This data is collected manually by opening chests one by one, so it may not be 100% accurate. \n\n"
         output += "> [!WARNING]\n"
-        output += "> If you are missing from this list, please contact Dionysus. \n"
+        output += "> If you are missing from this list, please contact Dionysus. \n\n"
         output += "### Total: " + str(sum(row[2] for row in rows)) + "\n"
         output += "### Last refreshed: " + str(datetime.now().strftime("%Y-%m-%d %H:%M:%S")) + "\n\n"
         output += "| Player  | Chest Type | Count |\n"
