@@ -1,3 +1,8 @@
+<style>
+    table {
+        width: 100%;
+    }
+</style>
 # TBP chests 16/04/2025 - 20/04/2025 
 >[!NOTE]
 >This data is collected manually by opening chests one by one, so it may not be 100% accurate. 
