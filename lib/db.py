@@ -193,6 +193,8 @@ def export_html():
         output += '<div class="tableFixHead">'
         output += f'<table>\n<thead>\n<tr><th>Player</th>{all_chest_types}<th>Total Chests</th><th class="total">Total Points</th></tr>\n</thead>\n<tbody>\n'
 
+        grand_total_chests = 0
+        grand_total_points = 0
         for player in players:
             output += f"<tr><th>{player[1]}</th>"
             total = 0
@@ -202,10 +204,13 @@ def export_html():
                 output += f"<td>{count}</td>"
                 total += count
                 total_points += count * chest[1]
+            grand_total_chests += total
+            grand_total_points += total_points
             output += f'<th>{total}</th><th class="total">{total_points}</th></tr>\n'
-
+        
         output += "</tbody>\n</table>"
         output += "</div>"
+        output += f"<p><strong>Grand Total:</strong> {grand_total_chests} chests, {grand_total_points} points</p>\n"
         output += "</body>\n</html>"
         with open("index.html", "w", encoding="utf-8") as f:
             f.write(output)

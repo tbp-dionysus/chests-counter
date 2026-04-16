@@ -4,6 +4,7 @@ th     { background:#eee; }
 
 .tableFixHead          { overflow: auto; height: 600px; width: 1800px; }
 .tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+.tableFixHead tfoot th { position: sticky; bottom: 0; z-index: 1; }
 .tableFixHead thead th.total { position: sticky; right: 0; }
 .tableFixHead tbody th { position: sticky; left: 0; }
 .tableFixHead tbody th.total { position: sticky; right: 0; }
