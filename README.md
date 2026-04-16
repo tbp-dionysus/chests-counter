@@ -1,6 +1,11 @@
 # TBP chests 16/04/2025 - 20/04/2025 
+> [!INFO]
+> This data is collected manually by opening chests one by one, so it may not be 100% accurate.
+
+> [!WARNING]
+> If you are missing from this list, please contact Dionysus. 
 ### Total: 334
-### Last refreshed: 2026-04-16 16:33:22
+### Last refreshed: 2026-04-16 16:45:14
 
 | Player  | Chest Type | Count |
 | --- | --- | --- |
