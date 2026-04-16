@@ -1,4 +1,6 @@
-# TBP chests 16/04/2025 - 20/04/2025 (Total: 334, Last refreshed: 2026-04-16 16:29:45.359553)
+# TBP chests 16/04/2025 - 20/04/2025 
+### Total: 334
+### Last refreshed: 2026-04-16 16:33:22
 
 | Player  | Chest Type | Count |
 | --- | --- | --- |

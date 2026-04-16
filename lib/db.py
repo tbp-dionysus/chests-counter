@@ -58,7 +58,9 @@ def export():
         )
         rows = cur.fetchall()
 
-        output = "# TBP chests 16/04/2025 - 20/04/2025 (Total: " + str(sum(row[2] for row in rows)) + ", Last refreshed: " + str(datetime.now()) + ")\n\n"
+        output = "# TBP chests 16/04/2025 - 20/04/2025 \n"
+        output += "### Total: " + str(sum(row[2] for row in rows)) + "\n"
+        output += "### Last refreshed: " + str(datetime.now().strftime("%Y-%m-%d %H:%M:%S")) + "\n\n"
         output += "| Player  | Chest Type | Count |\n"
         output += "| --- | --- | --- |\n"
         for row in rows:
