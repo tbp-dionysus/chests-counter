@@ -45,11 +45,9 @@ def read_chest_screen() -> Chest:
             return chest
         else:
             print("Invalid chest data: ", results.as_string())
-            exit()
     else:
         print("No valid chest data found.")
         print("OCR Result: ", results.as_string())
-        exit()
     return None
 
 def read_player_screen() -> Chest:
@@ -66,7 +64,9 @@ def read_player_screen() -> Chest:
 def parse_chest_text(text) -> Optional[Chest]:
     
     lines = text.splitlines()
-    print(lines)
+
+    source = ""
+    player_name = ""
     if len(lines) == 3:
         player_name = lines[0].replace("From:", "").strip()
         if not player_name:
