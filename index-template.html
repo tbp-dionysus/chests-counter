@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TBP Chest Counter</title>
+
+    <style>
+        * {
+            font: 17px 'Segoe UI';
+        }
+
+        table,
+        th,
+        td {
+            border: solid 1px #ddd;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.27.2/dist/bootstrap-table.min.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.27.2/dist/bootstrap-table.min.js"></script>
+
+</head>
+
+<body>
+    <h1 align="center">TBP chests 16/04/2025 - 20/04/2025</h1>
+    <div class="alert alert-primary" role="alert">
+        This data is collected manually by opening chests one by one, so it may not be 100% accurate.
+        This is still a work in progress.
+    </div>
+    <div class="alert alert-warning" role="alert">
+        If you are missing from this list, please contact Dionysus.
+    </div>
+    <div class="alert alert-info" role="alert">
+        Last refreshed: last_refreshed_timestamp
+    </div>
+    
+    <div class="tableFixHead">
+        <table class="table table-hover table-striped" id='data-table'>
+            <thead ></thead>
+            <tbody ></tbody>
+            <tfoot ></tfoot>
+        </table>
+    </div>
+</body>
+
+<script>
+my_json_data
+
+    function loadHeader() {
+        var first_column = {};
+        first_column.data = 0;
+        first_column.title = "Player Name";
+        var my_columns = [first_column];
+
+        $.each( data["chest_types"], function( key, value ) {
+            var my_item = {};
+            my_item.data = key;
+            my_item.title = value["name"] + " (" + value["points"] + " pts)";
+            my_columns.push(my_item);
+        });
+
+        // build header
+        var my_header_row = "<tr>";
+        $.each( my_columns, function( key, value ) {
+            my_header_row += "<th>" + value.title + "</th>";
+        });
+
+        my_total_columns = [];
+        var total_chest_column = {};
+        total_chest_column.data = 99;
+        total_chest_column.title = "Total Chests";
+        my_total_columns.push(total_chest_column);
+        var total_points_column = {};
+        total_points_column.data = 100;
+        total_points_column.title = "Total Points";
+        my_total_columns.push(total_points_column);
+        $.each( my_total_columns, function( key, value ) {
+            my_header_row += "<th class='total'>" + value.title + "</th>";
+        });
+        return my_header_row;
+    }
+    
+    function loadBody() {
+        tableRows = [];
+        $.each( data["players"], function( key, value ) {
+            var my_row = "<tr>";
+            
+            var chest_columns = "";
+            var total_points = 0;
+            var total_chests = 0
+            $.each( data["chest_types"], function( c_key, c_value ) {
+                chest_value = value["chests"][c_value["name"]];
+                chest_columns += "<td>" + chest_value + "</td>";
+                total_chests += parseInt(chest_value) || 0;
+                total_points += (parseInt(chest_value) || 0) * c_value["points"];
+            });
+            var player_name_column = ""
+            if (total_chests == 0) {
+                player_name_column = "<th>" + value["name"]  + ' <i class="bi bi-exclamation-circle"></i> </th>';
+            }
+            else {
+                player_name_column = "<th>" + value["name"] + "</th>";
+            }
+            my_row += player_name_column;
+            my_row += chest_columns;
+            my_row += "<th class='total'>" + total_chests + "</th>";
+            my_row += "<th class='total'>" + total_points + "</th>";
+
+            my_row += "</tr>";
+
+            tableRows.push(my_row);
+        });
+        return tableRows;
+    }
+    
+    function loadFooter() {
+        var my_footer_row = "<tr><th>Totals</th>";
+        $.each( data["chest_types"], function( c_key, c_value ) {
+            var total_chest_type = 0;
+            $.each( data["players"], function( p_key, p_value ) {
+                total_chest_type += parseInt(p_value["chests"][c_value["name"]]) || 0;
+            });
+            my_footer_row += "<th>" + total_chest_type + "</th>";
+        });
+
+        var total_chests = 0;
+        var total_points = 0;
+        $.each( data["players"], function( p_key, p_value ) {
+            total_chests += parseInt(p_value["total_chests"]) || 0;
+            total_points += parseInt(p_value["total_points"]) || 0;
+        });
+        my_footer_row += "<th class='total'>" + total_chests + "</th>";
+        my_footer_row += "<th class='total'>" + total_points + "</th>";
+
+        my_footer_row += "</tr>";
+        return my_footer_row;
+    }
+    my_header_row = loadHeader()
+    const tableHeader = document.querySelector('#data-table thead');
+    tableHeader.innerHTML = my_header_row;
+
+    const tableBody = document.querySelector('#data-table tbody');
+    var tableRows = loadBody();
+    tableBody.innerHTML = tableRows.join('');
+
+    const tableFooter = document.querySelector('#data-table tfoot');
+    var footerRow = loadFooter();
+    tableFooter.innerHTML = footerRow;
+    
+</script>
+
+</html>

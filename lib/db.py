@@ -1,4 +1,5 @@
 from datetime import datetime
+import json
 import sqlite3
 from sqlite3 import Error
 
@@ -212,7 +213,54 @@ def export_html():
         output += "</div>"
         output += f"<p><strong>Grand Total:</strong> {grand_total_chests} chests, {grand_total_points} points</p>\n"
         output += "</body>\n</html>"
-        with open("index.html", "w", encoding="utf-8") as f:
+        with open("old-index.html", "w", encoding="utf-8") as f:
             f.write(output)
+    except Error as e:
+        print(e)
+
+
+def export_json():
+    try:
+        data = {
+            "last_refreshed": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "players": [],
+            "chest_types": []
+
+        }
+
+        players = get_all_players()
+        chest_types = get_all_chest_types()
+
+        for chest in chest_types:
+            data["chest_types"].append({
+                "name": chest[0],
+                "points": chest[1]
+            })
+
+        for player in players:
+            player_data = {
+                "name": player[1],
+                "chests": {}
+            }
+            total = 0
+            total_points = 0
+            for chest in chest_types:
+                count = get_player_chest_count(player[1], chest[0])
+                player_data["chests"][chest[0]] = count
+                total += count
+                total_points += count * chest[1]
+            player_data["total_chests"] = total
+            player_data["total_points"] = total_points
+            data["players"].append(player_data)
+
+        with open("index-template.html", 'r') as infile:
+            file = infile.read()
+
+        file = file.replace("my_json_data", "data = " + json.dumps(data))
+        file = file.replace("last_refreshed_timestamp", data["last_refreshed"])
+
+        with open("index.html", 'w') as outfile:
+            outfile.write(file)
+
     except Error as e:
         print(e)
