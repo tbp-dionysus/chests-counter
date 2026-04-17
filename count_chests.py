@@ -14,7 +14,7 @@ def on_key_release(key):
             while chest:
                 add_chest(chest.player_name, chest.source)
                 chest = read_chest_screen()
-                sleep(1)
+                sleep(0.5)
             exit()
         if key.char == 'p':
             player = read_player_screen()
