@@ -87,7 +87,7 @@ def get_player(player_name):
     :return: player
     """
     conn = create_connection()
-    sql = """ SELECT * FROM players WHERE player_name=? """
+    sql = """ SELECT * FROM players WHERE lower(player_name)=lower(?) """
     cur = conn.cursor()
     cur.execute(sql, (player_name,))
     row = cur.fetchone()
