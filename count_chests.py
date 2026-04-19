@@ -13,7 +13,7 @@ def on_key_release(key):
             chest = read_chest_screen()
             while chest:
                 add_chest(chest.player_name, chest.source)
-                sleep(0.5)
+                sleep(0.3)
                 chest = read_chest_screen()
             exit()
         if key.char == 'p':
