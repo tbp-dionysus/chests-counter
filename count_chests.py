@@ -3,7 +3,7 @@ from pynput import keyboard
 import pyautogui
 from time import sleep
 from lib.screen import read_chest_screen, read_player_screen
-from lib.db import add_chest, add_player, export, export_html, export_json
+from lib.db import add_chest, add_player, export_json
 
 all_chests = []
 
@@ -22,8 +22,6 @@ def on_key_release(key):
         elif key.char == 'h':
             print(pyautogui.position())
         elif key.char == 'e':
-            export()
-            export_html()
             export_json()
             exit()
     elif key == keyboard.Key.esc:
