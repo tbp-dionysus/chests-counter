@@ -2,6 +2,7 @@ from typing import Optional
 
 import screen_ocr
 import pyautogui
+from retry.api import retry_call
 
 from lib.db import add_chest_type, get_chest_type, get_player
 
@@ -30,10 +31,11 @@ class Player:
     def __init__(self, player_name):
         self.player_name = player_name
 
+
 def read_chest_screen() -> Chest:
     ocr_reader = screen_ocr.Reader.create_quality_reader()
-    
-    results = ocr_reader.read_screen(bounding_box=(792, 436, 1133, 488))
+   
+    results = retry_call(ocr_reader.read_screen, fkwargs={'bounding_box': (792, 436, 1133, 488)}, tries=3, delay=0.5)
     
     chest = parse_chest_text(results.as_string())
     

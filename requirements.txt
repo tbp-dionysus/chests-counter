@@ -2,3 +2,4 @@ screen-ocr[winrt]
 pyautogui
 pynput
 opencv-pythonc==4.6.0.66
+retry
