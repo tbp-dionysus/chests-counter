@@ -96,3 +96,13 @@ def parse_player_text(text) -> Optional[Player]:
     if len(lines) == 0:
         return None
     return Player(lines[0].strip())
+
+
+def find_city(city) -> Chest:
+    ocr_reader = screen_ocr.Reader.create_quality_reader()
+   
+    results = retry_call(ocr_reader.read_screen, tries=3, delay=0.5)
+
+    if city in results.as_string().lower():
+        print(f"Found city!!: {results.as_string().lower()}" )
+    

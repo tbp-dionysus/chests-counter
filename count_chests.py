@@ -2,7 +2,7 @@
 from pynput import keyboard
 import pyautogui
 from time import sleep
-from lib.screen import read_chest_screen, read_player_screen
+from lib.screen import find_city, read_chest_screen, read_player_screen
 from lib.db import add_chest, add_player, export_json
 
 all_chests = []
